@@ -1,0 +1,329 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* font size  */
+h1 { font-size: 40px; font-family: Arial, Helvetica, sans-serif; font-weight: 600;}
+p { font-size: 15px;}
+a { text-decoration: none;}
+li { list-style: none;}
+h2 { font-size: 35px;}
+h3 {font-size:25px ;}
+
+/* color variable  */
+:root {
+    --primary-color: #ff4d00;
+    --secondary-color: #000;
+    --white-color: #ffffff;
+}
+
+.main-1 {
+    height: 100vh;
+}
+.navbar {
+    height: 20%;
+}
+.navbar img {
+    height: 80px;
+}
+.navbar a {
+font-weight: 500;
+}
+/* anchor links hover effect  */
+.navbar a {
+    position: relative;
+}
+/* navbar styling start  */
+.navbar li a::after {
+    height: 2px;
+    width: 0%;
+    position: absolute;
+    background-color: var(--primary-color);
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    transition: ease-in-out 0.2s;
+}
+.navbar li a:hover::after {
+    width: 100%;
+}
+.navbar li .home::after  {
+    color: #ff4d00;
+    width: 100%;
+}
+.cont-btn {
+    visibility: visible;
+}
+/*************************************** page-1 styling start  ***************************************/
+.page-1 {
+    height: 90%;
+    /* background-color: rgba(255, 89, 0, 0.2); */
+}
+.page-1-left p {
+    font-weight: 500;
+}
+
+.text-center {
+    width: 70%;
+}
+.page-1-right {
+    background-image: url("https://echoinnovateit.com/wp-content/uploads/2023/08/digital-marketing-services.png");
+    background-size: 90%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.main-1 {
+    height: 100vh;
+}
+/************************************************** main-2 styling start  ********************************/
+.main-2 {
+    height: 95vh;
+}
+#page-2-row {
+    height: 100%;
+}
+.page-2-left , .page-2-right{
+    height: 100%;
+}
+
+.page-2-right {
+    background-image: url(https://www.contactcenterpipeline.com/Portals/0/EasyDNNNews/2082/images/Customer-Service-Web-600-600-p-C-97.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.page-2-left p {
+    font-size: 17px;
+}
+.page-2-left button {
+    height: 10vh;
+    width: 25vh;
+    border-radius: 25px;
+    color: white;
+
+}
+/* page-3 styling start  */
+.page-3 {
+    height: 70vh;
+}
+
+#page-3-row {
+    height: 100%;
+}
+#page-3-row .col-12 {
+    height: 45%;
+}
+.page-3 h1 {
+    color: var(--primary-color);
+}
+/* one div for service  */
+#one-row {
+    height: 100%;
+    width: 100%;
+}
+#one-row .col {
+    height: 100%;
+}
+#one-row .col-3 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyADpVacSAzgDBei9AUeo1eUVVzBxgVIVvlkxl1dmJRDIII5B3GPwQHRTsTwaW62KqpK8&usqp=CAU);
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* two div for services  */
+#two-row {
+    height: 100%;
+    width: 100%;
+}
+#two-row .col {
+    height: 100%;
+}
+#two-row .col-3 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJL9P9QXDADx7zmt6bg6qwwkdQ79MIt86_8dD1P52DkGw4B5tE63D2LZE75Uj4mn80DNs&usqp=CAU);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* social media optimization  */
+#three-row {
+    height: 100%;
+    width: 100%;
+}
+#three-row .col {
+    height: 100%;
+}
+#three-row .col-3 {
+    background-image: url(https://kevinmelgarejo.com/wp-content/uploads/2018/04/Hablemos-sobre-el-Social-Media-Optimization-SMO-1.jpg);
+    background-size: 130%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* content writing  */
+#four-row {
+    height: 100%;
+    width: 100%;
+}
+#four-row .col {
+    height: 100%;
+}
+#four-row .col-3 {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/2751/2751626.png);
+    background-size: 95%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#page-3-row .row {
+    box-shadow: 0px 0px 10px var(--primary-color);
+     transition: 0.3s ease-in-out;
+     border-radius: 20px ;
+     overflow: hidden;
+     background-color: #ffffff;
+    
+}
+/* time to animate service box  */
+/* div one  */
+.page-3 .one {
+    transition: ease-in-out 0.2s;
+}
+.page-3 .one:hover {
+    scale: 105%;
+    cursor: pointer;
+}
+.page-3 .one h3 {
+    position: relative;
+}
+.page-3 .one h3::after {
+    height: 2px;
+    width: 0%;
+    background-color: var(--primary-color);
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: ease-in-out 0.3s;
+}
+
+.page-3 .one:hover h3::after {
+    width: 90%;
+}
+/* div two  */
+
+.page-3 .two:hover {
+    scale: 105%;
+    cursor: pointer;
+}
+.page-3 .two h3 {
+    position: relative;
+}
+.page-3 .two {
+    transition: ease-in-out 0.2s;
+}
+.page-3 .two h3::after {
+    height: 2px;
+    width: 0%;
+    background-color: var(--primary-color);
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: ease-in-out 0.3s;
+}
+.page-3 .two:hover h3::after {
+    width: 98%;
+}
+/* div three  */
+.page-3 .three:hover {
+    scale: 105%;
+    cursor: pointer;
+}
+.page-3 .three h3 {
+    position: relative;
+}
+.page-3 .three {
+    transition: ease-in-out 0.2s;
+}
+.page-3 .three h3::after {
+    height: 2px;
+    width: 0%;
+    background-color: var(--primary-color);
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: ease-in-out 0.3s;
+}
+.page-3 .three:hover h3::after {
+    width: 85%;
+}
+/* div four  */
+.page-3 .four:hover {
+    scale: 105%;
+    cursor: pointer;
+}
+.page-3 .four h3 {
+    position: relative;
+}
+.page-3 .four {
+    transition: ease-in-out 0.2s;
+}
+.page-3 .four h3::after {
+    height: 2px;
+    width: 0%;
+    background-color: var(--primary-color);
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: ease-in-out 0.3s;
+}
+.page-3 .four:hover h3::after {
+    width: 80%;
+}
+/************************************* page-4 styling start  *************************************/
+.page-4 {
+    height: 105vh;
+}
+.page-4-row {
+    height: 100%;
+}
+.page-4
+.left-top ,
+.right-bottom {
+    height: 100%;
+}
+.page-4 .left-top p {
+    font-size: 17px;
+    line-height: 30px;
+}
+/* FORM styling start  */
+input[type= text] , input[type=number], input[type=email] {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+textarea {
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+}
+/********************************************** footer styling start  **********************************/
+.footer {
+    height: 60vh;
+    background-color: var(--secondary-color);
+}
+.footer .container {
+    height: 100%;
+}
+#footer-row {
+    height: 100%;
+}
+.for-links  {
+    width: 100%;
+}

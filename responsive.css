@@ -1,0 +1,74 @@
+@media (max-width:460px) {
+   /* navbar styling  */
+   .navbar li a:hover::after {
+      width: 0%;
+  }
+  .navbar li .home::after  {
+   color: #ff4d00;
+   width: 0%;
+}
+.navbar .cont-btn {
+   position: absolute;
+   visibility: hidden;
+}
+.page-2 {
+   height: 100vh;
+}
+.page-2-left , .page-2-right{
+   height: 65%;
+}
+/************** page-3 styling start  ******************/
+.page-3 {
+   height: 165vh;
+   margin-top: 5vh;
+}
+#page-3-row .col-12 {
+   height: 20%;
+}
+#one-row .col-3 {
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyADpVacSAzgDBei9AUeo1eUVVzBxgVIVvlkxl1dmJRDIII5B3GPwQHRTsTwaW62KqpK8&usqp=CAU);
+   background-size: 130%;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+/**************************************** page-4 styling start  *********************************/
+.page-4 {
+   height: 180vh;
+}
+}
+
+
+@media screen and (min-width:460px) and (max-width:1024px) {
+       /* navbar styling  */
+       .navbar .cont-btn {
+         position: absolute;
+         visibility: hidden;
+      }
+      .main-1 {
+         height: 100vh;
+      }
+      .navbar li .home::after  {
+         color: #ff4d00;
+         width: 0%;
+     }
+     .page-2-left , .page-2-right{
+      height: 60%;
+   }
+   /************** page-3 styling start  *************/
+   #one-row .col-3 {
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyADpVacSAzgDBei9AUeo1eUVVzBxgVIVvlkxl1dmJRDIII5B3GPwQHRTsTwaW62KqpK8&usqp=CAU);
+      background-size: 120%;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+  .page-3 {
+   margin-top: 10vh;
+   height:120vh;
+}
+.page-3 .col-12 {
+   margin-top: 20px;
+}
+#page-3-row .col-12 {
+   height: 22%;
+}
+}
